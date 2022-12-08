@@ -1,0 +1,20 @@
+:root {
+    --background1: #1F2836;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background1);
+}
+
+.container {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    margin-top: 100px;
+}
+
+#stage {
+    border: 2px solid white;
+}
